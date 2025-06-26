@@ -1,0 +1,396 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Home",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "Frog",
+            "X": 45,
+            "Y": 64,
+            "Width": 150,
+            "Height": 150,
+            "Filename": "frog.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Play",
+            "X": -120,
+            "Y": 260,
+            "Width": 480,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_60_large_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_60_large_round_action.png",
+            "TextId": "__SingleUse_JDO3",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_60\\large_round_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GameName",
+            "X": 81,
+            "Y": 18,
+            "Width": 78,
+            "Height": 24,
+            "TextId": "__SingleUse_6SO0",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Play",
+        "Components": [
+          {
+            "Type": "TextureMapper",
+            "Name": "RockyDirt",
+            "Y": 240,
+            "Width": 240,
+            "Height": 40,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "RockyDirt.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": -314.0,
+            "YBitmapPosition": -429.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 120.0,
+            "YOrigo": 20.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "Dirt",
+            "Y": 200,
+            "Width": 240,
+            "Height": 40,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "Dirt.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": -335.5,
+            "YBitmapPosition": -415.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 120.0,
+            "YOrigo": 20.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "FlowerGrass",
+            "Y": 160,
+            "Width": 240,
+            "Height": 40,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "FlowerGrass.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": -336.5,
+            "YBitmapPosition": -416.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 120.0,
+            "YOrigo": 20.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "Grass",
+            "Y": 120,
+            "Width": 240,
+            "Height": 40,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "Grass.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": -385.5,
+            "YBitmapPosition": -416.5,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 120.0,
+            "YOrigo": 20.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "GrassShallowWater",
+            "Y": 80,
+            "Width": 240,
+            "Height": 40,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "GrassShallowWater.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": -319.0,
+            "YBitmapPosition": -413.5,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 120.0,
+            "YOrigo": 20.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "DeepWater",
+            "Y": 40,
+            "Width": 240,
+            "Height": 40,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "DeepWater.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": -388.0,
+            "YBitmapPosition": -416.0,
+            "Scale": 1.0,
+            "LockOrigoToCenter": true,
+            "XOrigo": 120.0,
+            "YOrigo": 20.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0,
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "TimeCount",
+            "X": 133,
+            "Y": 288,
+            "Width": 100,
+            "Height": 25,
+            "TextId": "__SingleUse_YXEN",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ScoreCount",
+            "X": 8,
+            "Y": 288,
+            "Width": 57,
+            "Height": 24,
+            "TextId": "__SingleUse_BGUZ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Exit",
+            "X": -25,
+            "Y": 4,
+            "Width": 290,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_large_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_large_rounded_action.png",
+            "TextId": "__SingleUse_7L0K",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\large_rounded_action.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "Rock",
+            "Y": 240,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "Rock.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "RollingRock",
+            "Y": 200,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "RollingRock.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "LawnMower",
+            "X": 200,
+            "Y": 160,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "LawnMower.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "House",
+            "X": 200,
+            "Y": 120,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "house.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "LilyPad",
+            "Y": 80,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "LilyPad.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "TreeLog",
+            "X": 164,
+            "Y": 80,
+            "Width": 76,
+            "Height": 40,
+            "Filename": "TreeLog.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "Crocodile",
+            "X": 160,
+            "Y": 40,
+            "Width": 80,
+            "Height": 40,
+            "Filename": "Crocodile.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "Frog",
+            "X": 120,
+            "Y": 240,
+            "Width": 40,
+            "Height": 40,
+            "Filename": "frog.png",
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Draggable": true,
+            "Moveable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "Easing": "Linear",
+              "EasingOption": "In"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Frogger",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Play",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}
